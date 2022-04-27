@@ -37,6 +37,7 @@ const items: MenuItem[] = [
   // ]),
   // getItem('Team', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('巨鲸跟踪', '9', <FileOutlined />),
+  getItem('空投管理', '10', <DesktopOutlined />),
 ];
 
 class SiderDemo extends React.Component {

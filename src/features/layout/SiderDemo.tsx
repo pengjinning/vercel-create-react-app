@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Menu, Breadcrumb, MenuProps } from 'antd';
 import {
   DesktopOutlined,
-  PieChartOutlined,
+  // PieChartOutlined,
   FileOutlined,
   // TeamOutlined,
   // UserOutlined,
@@ -28,7 +28,7 @@ function getItem(
 }
 
 const items: MenuItem[] = [
-  getItem('投资分析', '1', <PieChartOutlined />),
+  // getItem('投资分析', '1', <PieChartOutlined />),
   getItem('授权管理', '2', <DesktopOutlined />),
   // getItem('User', 'sub1', <UserOutlined />, [
   //   getItem('Tom', '3'),

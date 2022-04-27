@@ -4,10 +4,10 @@ import {
   DesktopOutlined,
   PieChartOutlined,
   FileOutlined,
-  TeamOutlined,
-  UserOutlined,
+  // TeamOutlined,
+  // UserOutlined,
 } from '@ant-design/icons';
-import styles from './SiderDemo.module.css';
+// import styles from './SiderDemo.module.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -28,15 +28,15 @@ function getItem(
 }
 
 const items: MenuItem[] = [
-  getItem('Option 1', '1', <PieChartOutlined />),
-  // getItem('Option 2', '2', <DesktopOutlined />),
-  getItem('User', 'sub1', <UserOutlined />, [
-    getItem('Tom', '3'),
-    getItem('Bill', '4'),
-    // getItem('Alex', '5'),
-  ]),
+  getItem('投资分析', '1', <PieChartOutlined />),
+  getItem('授权管理', '2', <DesktopOutlined />),
+  // getItem('User', 'sub1', <UserOutlined />, [
+  //   getItem('Tom', '3'),
+  //   getItem('Bill', '4'),
+  //   // getItem('Alex', '5'),
+  // ]),
   // getItem('Team', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
-  getItem('Files', '9', <FileOutlined />),
+  getItem('巨鲸跟踪', '9', <FileOutlined />),
 ];
 
 class SiderDemo extends React.Component {
@@ -68,7 +68,7 @@ class SiderDemo extends React.Component {
               Bill is a cat.
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+          <Footer style={{ textAlign: 'center' }}>deskx.org - crypto toolbox</Footer>
         </Layout>
       </Layout>
     );

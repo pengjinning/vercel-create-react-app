@@ -6,6 +6,7 @@ import { store } from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 // https://ant.design/docs/react/getting-started-cn
+// https://ant.design/components/layout-cn/
 import 'antd/dist/antd.min.css';
 
 ReactDOM.render(

@@ -7,7 +7,7 @@ import {
   // TeamOutlined,
   // UserOutlined,
 } from '@ant-design/icons';
-// import styles from './SiderDemo.module.css';
+// import styles from './MyLayout.module.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 
